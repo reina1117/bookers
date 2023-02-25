@@ -1,10 +1,6 @@
-<div class="text-success">
+<div class="success">
   <%= flash[:success] %>
 </div>
-<div class="text-no">
-  <%= flash[:failure] %>
-</div>
-
 <p>
   <strong>Title:</strong>
   <%= @book.title %>
@@ -15,4 +11,4 @@
   <%= @book.body %>
 </p>
 
-<%= link_to "Edit",edit_book_path(@book.id) %>|<%= link_to "Back", "/books" %>
+<%= link_to "Edit",edit_book_path(@book.id) %> | <%= link_to "Back", "/books" %>

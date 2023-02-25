@@ -2,19 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.text-success {
+.success {
   color :green;
-}
-
-.no {
-  color :red;
 }
 
 a:visited {
   color: #666;
 }
 
-.title, .body, .action {
+.form, .body, .action {
   margin-bottom: 10px;
 }
 
